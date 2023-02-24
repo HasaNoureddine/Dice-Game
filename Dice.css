@@ -19,7 +19,7 @@ body {
   height: 200px;
   border: 2px solid black;
   border-radius: 10%;
-  margin: 20px;
+  margin: 50px;
   border: 10px solid white;
   transition: 0.5s;
 }
@@ -29,7 +29,12 @@ body {
   height: 200px;
   border: 2px solid black;
   border-radius: 10%;
-  margin: 20px;
+  margin: 50px;
   border: 10px solid white;
   transition: 0.5s;
+}
+
+h1 {
+  font-size: 200px;
+  font-family: "Courier New", Courier, monospace;
 }

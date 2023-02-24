@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function (event) {
   let dice = document.getElementsByClassName("dice");
   let Dice = document.getElementsByClassName("Dice");
-  console.log(dice);
+
   for (let i = 0; i < dice.length; i++) {
     dice[i].style.display = "none";
   }
@@ -14,9 +14,9 @@ document.addEventListener("DOMContentLoaded", function (event) {
   Dice[roll2].style.display = "flex";
 
   if (roll1 > roll2) {
-    document.getElementById("status").innerHTML = `PLAYER 1 WINS!`;
+    document.getElementById("status").innerHTML = `PLAYER 1 WINS! 🤪`;
   } else if (roll1 < roll2) {
-    document.getElementById("status").innerHTML = `PLAYER 2 WINS!`;
+    document.getElementById("status").innerHTML = `PLAYER 2 WINS! 🤪`;
   } else {
     document.getElementById("status").innerHTML = `IT IS A DRAW!`;
   }
