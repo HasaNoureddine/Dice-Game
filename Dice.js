@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
   Dice[roll2].style.display = "flex";
 
   if (roll1 > roll2) {
-    document.getElementById("status").innerHTML = `PLAYER 1 WINS! 🤪`;
+    document.getElementById("status").innerHTML = `🤪 PLAYER 1 WINS! `;
   } else if (roll1 < roll2) {
     document.getElementById("status").innerHTML = `PLAYER 2 WINS! 🤪`;
   } else {
